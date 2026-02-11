@@ -10,15 +10,6 @@ window#waybar {
     transition-duration: .5s;
 }
 
-window#waybar.termite {
-    background-color: #3F3F3F;
-}
-
-window#waybar.chromium {
-    background-color: #000000;
-    border: none;
-}
-
 #pulseaudio:hover {
     background-color: #a30062;
     color: #ffffff;
