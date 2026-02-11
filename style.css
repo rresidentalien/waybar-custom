@@ -4,10 +4,8 @@
 }
 
 window#waybar {
-    background-color: rgba(40, 46, 51, 0.9);
+    background-color: rgba(40, 46, 51, 0.1);
     color: #ffffff;
-    transition-property: background-color;
-    transition-duration: .5s;
 }
 
 #pulseaudio:hover {
@@ -24,8 +22,8 @@ window#waybar {
 #tray {
     background-color: #e2a7dd;
     padding: 1px 10px;
-    margin: 5px;
-    border: 3px solid #fc88d0;
+    margin: 0px;
+    border: 3px solid #5e1140;
     border-radius: 5px;
     color: #000000;
 }
@@ -37,6 +35,10 @@ window#waybar {
 
 #tray {
     background-color: #a666a0;
-    border-color: #fc88d0;
+    border-color: #5e1140;
     margin-right: 20px;
+}
+
+#clock {
+    margin-left: 20px;
 }

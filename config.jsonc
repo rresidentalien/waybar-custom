@@ -10,8 +10,10 @@
         "cpu",
         "memory",
         "temperature",
-        "clock",
         "tray"
+    ],
+    "modules-left": [
+        "clock"
     ],
     "tray": {
         "spacing": 10
@@ -55,11 +57,11 @@
         "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
         "on-scroll-up": "wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+",
         "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
+
     },
     "clock": {
         "interval": 60,
-        "format": "{:%H:%M}",
-        "max-length": 25,
+        "format": "{:%H:%M | %A, %d.%m.%Y}",
         "tooltip": true,
         "tooltip-format": "{:%d.%m.%Y}"
     }
