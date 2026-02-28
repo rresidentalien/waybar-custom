@@ -1,0 +1,44 @@
+* {
+    font-family: "JetBrains Mono NL", FontAwesome;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+window#waybar {
+    background-color: #131217;
+    color: #ffffff;
+}
+
+#pulseaudio:hover {
+    background-color: #c20b1a;
+    color: #ffffff;
+}
+
+#clock,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#tray {
+    background-color: #b0e91b;
+    padding: 1px 10px;
+    margin: 3px;
+    border-radius: 5px;
+    color: #000000;
+}
+
+#pulseaudio.muted {
+    background-color: #13451b;
+    color: #ffffff;
+}
+
+#tray {
+    background-color: #c20b1a;
+    margin-right: 20px;
+}
+
+#clock {
+    margin-left: 20px;
+}
