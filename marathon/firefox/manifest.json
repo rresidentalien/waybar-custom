@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Marathon",
+  "theme": {
+    "images": {
+      "additional_backgrounds": [
+        "images/bg-021-775b159da029a74f5c76e835cd65e9dc.svg"
+      ]
+    },
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "top"
+      ],
+      "additional_backgrounds_tiling": [
+        "repeat"
+      ]
+    },
+    "colors": {
+      "toolbar": "rgb(21, 21, 21)",
+      "toolbar_text": "rgb(255, 255, 255)",
+      "frame": "rgb(29, 29, 30)",
+      "tab_background_text": "rgb(206, 218, 175)",
+      "toolbar_field": "rgb(53, 53, 53)",
+      "toolbar_field_text": "rgb(255, 255, 255)",
+      "tab_line": "rgb(176, 233, 27)",
+      "popup": "rgb(39, 39, 41)",
+      "popup_text": "rgb(176, 233, 27)",
+      "tab_loading": "rgb(176, 233, 27)"
+    }
+  }
+}
